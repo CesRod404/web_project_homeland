@@ -27,6 +27,10 @@
     text-align: center;
 }
 
+.header__lead-title span{
+    display: block;
+}
+
 .header__lead-subtitle{
     text-align: center;
     font-size: 30px;
@@ -81,5 +85,5 @@
         max-width: 288px;
     }
 
-    
+
 }
