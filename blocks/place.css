@@ -20,7 +20,6 @@
 }
 
 .place__title{
-    font-weight: 76px;
     font-size: 72px;
     max-width: 460px;
     grid-area: title;
@@ -57,7 +56,6 @@
     font-size: 18px;
     width: 484px;
     line-height: 163%;
-    font-weight: 400px;
 }
 
 
@@ -82,13 +80,27 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
+
+}
+
+.place__link button{
     color: #FFFFFF;
     background-image: linear-gradient(to right, #0278FE, #003A7B);
     box-shadow: 5px 5px 10px #00000040;
+    width: 289px;
+    height: 48px;
+    border: none;
+    cursor: pointer;
+    padding: 0;
 }
 
-.place__link:hover{
-   background-image: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
+.place__link button:hover{
+    background-color: transparent;
+    background-image: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
+    outline: none;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    
 }
 
 @media screen and (min-width:545px) and (max-width:1024px){
