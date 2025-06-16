@@ -80,26 +80,17 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
-
-}
-
-.place__link button{
     color: #FFFFFF;
-    background-image: linear-gradient(to right, #0278FE, #003A7B);
+    background-image: linear-gradient( #0278FE, #003A7B);
     box-shadow: 5px 5px 10px #00000040;
-    width: 289px;
-    height: 48px;
-    border: none;
-    cursor: pointer;
-    padding: 0;
+
 }
 
-.place__link button:hover{
-    background-color: transparent;
-    background-image: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
-    outline: none;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+
+
+.place__link:hover{
+    background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
+
     
 }
 
